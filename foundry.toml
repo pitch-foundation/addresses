@@ -1,6 +1,57 @@
 [profile.default]
-src = "src"
-out = "out"
-libs = ["lib"]
+src = 'src'
+script = 'script'
+out = 'out'
+ffi = true                       # chugsplash
+build_info = true                # chugsplash
+extra_output = ['storageLayout'] # chugsplash
+#force = true # chugsplash
+# fs_permissions = [{ access = "read", path = "./"}] # chugsplash
+libs = ['lib']
+remappings = [
+	'forge-std/=lib/forge-std/src/',
+	'safe-tools/=lib/safe-tools/src/',
+	'@openzeppelin/=lib/openzeppelin-contracts/',
+	'@openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/',
+	'@interfaces/=src/interfaces/',
+	'@mocks/=test/mocks/',
+	'@script/=script/',
+	'safe/=lib/safer/lib/safe-contracts/contracts/',
+	'ds-test/=lib/forge-std/lib/ds-test/src/',
+	'erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/',
+	'openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/',
+	'openzeppelin-contracts/=lib/openzeppelin-contracts/',
+	'openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/',
+	'safer/=lib/safer/',
+	'solady/=lib/safe-tools/lib/solady/src/',
+	'solmate/=lib/solmate/src/',
+]
 
-# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+solc_version = "0.8.21"
+gas_reports = ["*"]
+
+# These are part of the chugsplash tool
+# [rpc_endpoints]
+# localhost = "http://127.0.0.1:8545"
+
+# settings for coverage reports
+via_ir = true
+optimizer = true
+optimizer_runs = 100_000
+
+
+[profile.default.optimizer_details]
+jumpdestRemover = true
+orderLiterals = true
+deduplicate = true
+
+yul = true
+constantOptimizer = true
+stackAllocation = true
+# Have cse = true commented out for faster testing compilation, but un-comment it for deployment!
+cse = true
+
+[profile.default.optimizer_details.yulDetails]
+stackAllocation = true
+# Have optimizerSteps = "" enabled for faster testing compilation, but comment it out for deployment!
+#optimizerSteps = ""
