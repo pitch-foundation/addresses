@@ -2,8 +2,6 @@
 pragma solidity ^0.8.0;
 
 contract HourglassAddresses {
-
-
     ////////// Permissioned Addresses & Signers //////////
 
     /**
@@ -15,25 +13,18 @@ contract HourglassAddresses {
     *               - FeeManager
     *               - RewardsDistributor
     */
-    address public constant UPGRADER = 
-        address(0xb5B210919A53Ea9092De52EFF838bF8Af52c67ab);
+    address public constant UPGRADER = address(0xb5B210919A53Ea9092De52EFF838bF8Af52c67ab);
     /// @notice Upgrader Safe Signers
     /// @notice Owner: Charlie - Type: EOA
-    address public constant UPGRADER_SIGNER_1 = 
-        address(0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af);
+    address public constant UPGRADER_SIGNER_1 = address(0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af);
     /// @notice Owner: ZrowGz - Type: EOA
-    address public constant UPGRADER_SIGNER_2 = 
-        // address(0xa8C94AE38B04140794A9394b76Ac6d0A83AC0B02);
-        address(0x0c8E04aeC6DEE9588ebCFC0690e64A30705E10B2);
-    /// @notice Owner: ZrowGz - Type: EOA
-    address public constant UPGRADER_SIGNER_3 = 
-        address(0x99F90f800842a1E24855246556368FF68459096C);
+    address public constant UPGRADER_SIGNER_2 = address(0x99F90f800842a1E24855246556368FF68459096C);
     
     /**
     * @notice   Hourglass Deployer
     * @dev      After deployment, this address should retain no permissions!
     */
-    address public constant DEPLOYER = 
+    address public constant HOURGLASS_DEPLOYER = 
         address(0xa8C94AE38B04140794A9394b76Ac6d0A83AC0B02);
 
     /**
@@ -47,14 +38,9 @@ contract HourglassAddresses {
     *               - FeeManager
     */
     /// @notice Owner: Charlie - Type: EOA
-    address public constant SETTER_MANAGER_1 = 
-        address(0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af);
+    address public constant SETTER_MANAGER_1 = address(0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af);
     /// @notice Owner: ZrowGz - Type: EOA
-    address public constant SETTER_MANAGER_2 = 
-        address(0x91111D3fbaa8C8F25ebE52243f0fe0549c22E258);
-    /// @notice Owner: ZrowGz - Type: EOA
-    address public constant SETTER_MANAGER_3 = 
-        address(0x80AFF4d057f725Fde71b15134630eeE4c5b716d2);
+    address public constant SETTER_MANAGER_2 = address(0x80AFF4d057f725Fde71b15134630eeE4c5b716d2);
 
     /**
     * @notice   ROLE: CHECKPOINTER
@@ -81,14 +67,11 @@ contract HourglassAddresses {
     *               - HourglassCustodian
     */
     /// @notice Owner: Charlie - Type: EOA
-    address public constant PAUSER_1 = 
-        address(0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af);
+    address public constant PAUSER_1 = address(0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af);
     /// @notice Owner: ZrowGz - Type: EOA
-    address public constant PAUSER_2 = 
-        address(0x91111D3fbaa8C8F25ebE52243f0fe0549c22E258);
+    // address public constant PAUSER_2 = address(0x91111D3fbaa8C8F25ebE52243f0fe0549c22E258); deprecated
     /// @notice Owner: ZrowGz - Type: EOA
-    address public constant PAUSER_3 = 
-        address(0x0d0448B1BC6eA4d3A6d23fB6d942A483740B0B0c);
+    address public constant PAUSER_3 = address(0x0d0448B1BC6eA4d3A6d23fB6d942A483740B0B0c);
 
     /////////// Non-Permissioned But Critical Addresses ///////////
     /** 
@@ -112,27 +95,26 @@ contract HourglassAddresses {
     address public constant HOURGLASS_TOKEN = address(0x9C4ac8CACb116a65bAc5eA6F236709b2D11c0c7E);
     address public constant PITCH_BURNER = address(0x47Be0902f0B01d362DB88D174D2B173995A686AB);
     address public constant TIME_VESTING = address(0x704559A0f71665B0548E9aE70AD3E93cb959BA40);
+
+    ////////// Hourblast Addresses //////////
+    /**
+     *  @notice HOURBLAST OWNER
+     *  @notice SAFE 1/2 Signers:
+     *          Signer 1: Charlie 0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af
+     *          Signer 2: SETTER_MANAGER_2 0x80AFF4d057f725Fde71b15134630eeE4c5b716d2
+     *  @notice Owns all Hourblast Contracts (see below)
+     */
+    address public constant HOURBLAST_OWNER = address(0x05463718F336C4F5A511ea8BE8F65DdC9347cc7A);
+    /// Hourblast Contracts
+    address public constant HOURBLAST = address(0x9D0fC9112fD2C6e87f70aDEB8C13B867F0165FEe);
+    address public constant HOURBLAST_USD = address(0x5EF352e9dCE295D62D2e015DDbF07A0c448758b5);
+    address public constant HOURBLAST_ETH = address(0xEeB5Bfe545af04Cf9864A0A507Ff0944047A254C);
+
+
+    ////////// Hourglass Index Addresses //////////
     
-    ///// Asset Specific Addresses /////
-
-    /// Asset 0 /// - DEPRECATED
-    // address public asset0VaultImplementation =  address(0x6481878CbcF62f41f9eF08695999b24C2D1717a3);
-    // address public asset0MatureVault =          address(0x45334DBB33b8d737682FB2ecDC0B455E0a1685E3);
-    // address public asset0Receipt1155 =          address(0x8945cca2d2E822399C0e8254cCDDe203ae5E0933);
-    // address public asset0DepositToken=          address(0xf43211935C781D5ca1a41d2041F397B8A7366C7A); // frxETHCRV
-    // address public asset0StakingStrategy =      address(0xa537d64881b84faffb9Ae43c951EEbF368b71cdA); // frax farm cvxstkfrxETHCRV
-
-    /// Asset 1 /// frxETHCRV
-    address public asset1VaultImplementation =  address(0x6481878CbcF62f41f9eF08695999b24C2D1717a3);
-    address public asset1MatureVault =          address(0x45334DBB33b8d737682FB2ecDC0B455E0a1685E3);
-    address public asset1Receipt1155 =          address(0xa2d6A0Af3a07ac57a2190a36ba0388E2C0ACA3D5);
-    address public asset1DepositToken=          address(0xf43211935C781D5ca1a41d2041F397B8A7366C7A); // frxETHCRV
-    address public asset1StakingStrategy =      address(0xa537d64881b84faffb9Ae43c951EEbF368b71cdA);// frax farm cvxstkfrxETHCRV
-
-    /// Asset 2 /// Frax BP
-    address public asset2Vault =                address(0xcB03A0a4A205dFB1a0B79CE08C89978f3763872A);
-    address public asset2Mature =               address(0x3b07fDbaDf9f8069725Ba6f8b0187614Ae8F6654);
-    address public asset2Receipt =              address(0xB2367591FD00CE295B1Cd519fAD66cf5192a830c);
-    address public asset2DepositToken=          address(0x3175Df0976dFA876431C2E9eE6Bc45b65d3473CC); // frxETHCRV
-    address public asset2StakingStrategy =      address(0x963f487796d54d2f27bA6F3Fbe91154cA103b199);// frax farm cvxstkfrxETHCRV
+    // TODO 
+    // HFXB Fund: 
+    // Index Factory Deployer: 
+    // Index Factory Registry Manager:
 }
