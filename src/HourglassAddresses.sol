@@ -114,7 +114,25 @@ library HourglassAddresses {
     ////////// Hourglass Index Addresses //////////
     
     // TODO 
-    // HFXB Fund: 
-    // Index Factory Deployer: 
-    // Index Factory Registry Manager:
+    /**
+     *  @notice HFXB OWNER
+     *  @notice SAFE 1/2 Signers:
+     *          Signer 1: Charlie 0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af
+     *          Signer 2: Zrowgz 0xfE12713e93B90284b5Ec74C272620097E8183e4B
+     *  @notice The Safe that controls HFXB Index
+     */
+    address public constant HFXB_FUND = address(0xBC0cC97A58c0B9AAe79C1EDA19B061eC24857Fcd);
+    /**
+     * @notice Index Factory Deployer Role
+     * signer: zrowgz type: EOA address: 0xfE12713e93B90284b5Ec74C272620097E8183e4B
+     */
+    /**
+     * @notice Index Factory Registry Manager Role
+     * signer: zrowgz type: EOA address: 0xfE12713e93B90284b5Ec74C272620097E8183e4B
+     */
+
+    /// @notice Hourglass Index Contracts
+    // address public constant INDEX_FACTORY = address(0x0);
+
+    // address public constant HFXB_INDEX = address(0x0);
 }
