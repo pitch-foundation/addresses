@@ -119,6 +119,9 @@ library HourglassAddresses {
      *  @notice SAFE 1/2 Signers:
      *          Signer 1: Charlie 0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af
      *          Signer 2: Zrowgz 0xfE12713e93B90284b5Ec74C272620097E8183e4B
+     *          Signer 3: Bryce Temp 1: 0x071AAFb1906897763F26c74a6660BE4Cd8b80051
+     *          Signer 4: Bryce Temp 2: 0xaB1034639C9798Af555d0FE4534CDd4D26CeDD91
+     *          Signer 5: Adam: 0x3c2Fb1CDeeFf429674e25629406b41767B5dfC08
      *  @notice The Safe that controls HFXB Index
      */
     address public constant HFXB_FUND = address(0xBC0cC97A58c0B9AAe79C1EDA19B061eC24857Fcd);
@@ -131,8 +134,4 @@ library HourglassAddresses {
      * signer: zrowgz type: EOA address: 0xfE12713e93B90284b5Ec74C272620097E8183e4B
      */
 
-    /// @notice Hourglass Index Contracts
-    // address public constant INDEX_FACTORY = address(0x0);
-
-    // address public constant HFXB_INDEX = address(0x0);
 }
