@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.0;
 
+import "./HourglassRoles.sol";
+import "./HourglassTBTs.sol";
+import "./HourglassIndexes.sol";
+
 library HourglassAddresses {
     ////////// Permissioned Addresses & Signers //////////
 
@@ -125,13 +129,5 @@ library HourglassAddresses {
      *  @notice The Safe that controls HFXB Index
      */
     address public constant HFXB_FUND = address(0xBC0cC97A58c0B9AAe79C1EDA19B061eC24857Fcd);
-    /**
-     * @notice Index Factory Deployer Role
-     * signer: zrowgz type: EOA address: 0xfE12713e93B90284b5Ec74C272620097E8183e4B
-     */
-    /**
-     * @notice Index Factory Registry Manager Role
-     * signer: zrowgz type: EOA address: 0xfE12713e93B90284b5Ec74C272620097E8183e4B
-     */
 
 }

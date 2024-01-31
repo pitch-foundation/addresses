@@ -17,8 +17,6 @@ library HourglassIndexes {
     /**
      * @notice Index Factory Deployer Role
      * signer: zrowgz type: EOA address: 0xfE12713e93B90284b5Ec74C272620097E8183e4B
-     */
-    /**
      * @notice Index Factory Registry Manager Role
      * signer: zrowgz type: EOA address: 0xfE12713e93B90284b5Ec74C272620097E8183e4B
      */

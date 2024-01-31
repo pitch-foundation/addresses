@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.0;
 
-library HourglassAddresses {
+library HourglassTBTs {
     /// Asset 0 /// - DEPRECATED
     // address public constant asset0VaultImplementation =  address(0x6481878CbcF62f41f9eF08695999b24C2D1717a3);
     // address public constant asset0MatureVault =          address(0x45334DBB33b8d737682FB2ecDC0B455E0a1685E3);
