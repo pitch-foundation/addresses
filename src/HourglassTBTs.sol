@@ -2,6 +2,9 @@
 pragma solidity ^0.8.0;
 
 library HourglassTBTs {
+    /**
+     * @dev Custodian admin is HourglassAddresses.UPGRADER
+     */
     /// TBT Protocol Contracts
     address public constant CUSTODIAN = address(0xF083C8e524B1DA5B557E89120a497Ce9a61f2CeA);
     address public constant REWARD_DISTRO = address(0x7F8bAc9C4605B29a55c3A8367D183236ADF2dfe8);

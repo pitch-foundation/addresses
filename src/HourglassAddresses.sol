@@ -91,10 +91,6 @@ library HourglassAddresses {
 
     /////////// Hourglass Protocol Addresses ///////////
 
-    address public constant CUSTODIAN = address(0xF083C8e524B1DA5B557E89120a497Ce9a61f2CeA);
-    address public constant REWARD_DISTRO = address(0x7F8bAc9C4605B29a55c3A8367D183236ADF2dfe8);
-    address public constant FEE_MANAGER = address(0x6D38f4F38Fd28b166967563a31994C49d6F5b32C);
-    address public constant ERC20_INTERMEDIARY = address(0xC61d69A75047d55d43C214DecA54cbB38E95bFA5);
 
     address public constant HOURGLASS_TOKEN = address(0x9C4ac8CACb116a65bAc5eA6F236709b2D11c0c7E);
     address public constant PITCH_BURNER = address(0x47Be0902f0B01d362DB88D174D2B173995A686AB);
