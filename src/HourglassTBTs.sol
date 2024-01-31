@@ -2,6 +2,13 @@
 pragma solidity ^0.8.0;
 
 library HourglassTBTs {
+    /// TBT Protocol Contracts
+    address public constant CUSTODIAN = address(0xF083C8e524B1DA5B557E89120a497Ce9a61f2CeA);
+    address public constant REWARD_DISTRO = address(0x7F8bAc9C4605B29a55c3A8367D183236ADF2dfe8);
+    address public constant FEE_MANAGER = address(0x6D38f4F38Fd28b166967563a31994C49d6F5b32C);
+    address public constant ERC20_INTERMEDIARY = address(0xC61d69A75047d55d43C214DecA54cbB38E95bFA5);
+
+
     /// Asset 0 /// - DEPRECATED
     // address public constant asset0VaultImplementation =  address(0x6481878CbcF62f41f9eF08695999b24C2D1717a3);
     // address public constant asset0MatureVault =          address(0x45334DBB33b8d737682FB2ecDC0B455E0a1685E3);
