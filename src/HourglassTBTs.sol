@@ -31,5 +31,5 @@ library HourglassTBTs {
     address public constant asset2Mature =               address(0x3b07fDbaDf9f8069725Ba6f8b0187614Ae8F6654);
     address public constant asset2Receipt =              address(0xB2367591FD00CE295B1Cd519fAD66cf5192a830c);
     address public constant asset2DepositToken=          address(0x3175Df0976dFA876431C2E9eE6Bc45b65d3473CC); // frxETHCRV
-    address public constant asset2StakingStrategy =      address(0x963f487796d54d2f27bA6F3Fbe91154cA103b199);// frax farm cvxstkfrxETHCRV
+    address public constant asset2StakingStrategy =      address(0x963f487796d54d2f27bA6F3Fbe91154cA103b199); // frax farm cvxstkfrxETHCRV
 }
