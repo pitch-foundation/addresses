@@ -16,6 +16,7 @@ library HourglassAddresses {
     *               - HourglassCustodian
     *               - FeeManager
     *               - RewardsDistributor
+    * @dev Added to Arbitrum (for emergency purposes only - otherwise use ARBITRUM_UPGRADER)
     */
     address public constant UPGRADER = address(0xb5B210919A53Ea9092De52EFF838bF8Af52c67ab);
     /// @notice Upgrader Safe Signers
@@ -24,6 +25,20 @@ library HourglassAddresses {
     /// @notice Owner: ZrowGz - Type: EOA
     address public constant UPGRADER_SIGNER_2 = address(0x99F90f800842a1E24855246556368FF68459096C);
     
+    /**
+    * @notice   ARBITRUM UPGRADER
+    * @notice   Type: Safe - Required Signer Count: 1/x
+    * @notice   UPGRADER:           0x8e4f01b2ef10e587f670bbfd448bba9a57a36fd9c81549b587269120cb62b24d 
+    * @notice   Contracts using this role:
+    *               - HourglassOracle
+    * @notice Owner: Charlie - Type: EOA
+    *   address public constant UPGRADER_SIGNER_1 = address(0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af);
+    * @notice Owner: ZrowGz - Type: EOA
+    *   ddress public constant UPGRADER_SIGNER_2 = address(0x99F90f800842a1E24855246556368FF68459096C);
+    */
+    address public constant ARBITRUM_UPGRADER = address(0xd3bb52BaF261a82a683C6Ca5f55EcbfB1d96756e);
+
+
     /**
     * @notice   Hourglass Deployer
     * @dev      After deployment, this address should retain no permissions!
