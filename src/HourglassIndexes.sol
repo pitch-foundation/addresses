@@ -28,7 +28,7 @@ library HourglassIndexes {
     address public constant HFXB_ARBITRUM = address(0x0b7B0DaCAc5BA5359E01BB4F19aBfa174719cee2);
     address public constant ARBITRUM_HFXB_ORACLE_UPDATER = address(0x0BaF2F9E4D48003eb248Ac234fC26022D60b678f);
     address public constant ARBITRUM_HFXB_ORACLE = address(0x0133EF87c788C19C27fEEc93BfB4515176FDD67c);
-    address public constant ARB_CRV_HFXB_LP = address(0);
+    address public constant ARB_CRV_HFXB_LP = address(0xC9bF909acf287C64c4799D9F38eEaB4a3491C307);
     // address public constant HFXB = address(0x7b7b3a3338e7Cb59DFD2571a91BeE43E0EC606C0); // previous SFRAX version at deployment index 0
     // address public constant HFXB_WITHDRAWAL_QUEUE = address(0x8A9649feeA978112547A1050FBC8eAB6524e0ba4);
 }
