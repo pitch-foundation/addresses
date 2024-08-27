@@ -14,9 +14,17 @@ certifi==2024.7.4
     # via requests
 charset-normalizer==3.3.2
     # via requests
+datetime==5.5
+    # via addresses
 idna==3.8
     # via requests
+pytz==2024.1
+    # via datetime
 requests==2.32.3
     # via addresses
 urllib3==2.2.2
     # via requests
+zope-interface==7.0.3
+    # via datetime
+setuptools==74.0.0
+    # via zope-interface
