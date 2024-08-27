@@ -6,191 +6,207 @@
 
 #### Maturity Date: 2024-10-09
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Protocol**: MANTLE
+- **Deposit Token Name**: mETH
+- **Zapper**: None
+- **Deposit Token Address**: 0xcDA86A272531e8640cD7F1a92c01839911B90bb0
+- **Maturity Timestamp**: 1728432000
+- **Address Lock Depositor**: 0x37e3aC623B488bB075Ce8F3199ae93F8CAC727F2
+- **Point Token**: 0xBfE0E27c67E6453E5529c5EE8D8762c5D82470c4
+- **Principal Token**: 0x979ecd3CF8650cE306B7658652617BB93d3D01ED
+- **Combined Token**: 0x8fC1E4ecDb25bF258cadb37F2303b11F33B5fEf3
+- **Chain ID**: 5000
 ## Protocol: ETHERFI
 
 ### Deposit Token Name: Super Symbiotic LRT
 
 #### Maturity Date: 2024-09-14
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Protocol**: ETHERFI
+- **Deposit Token Name**: Super Symbiotic LRT
+- **Zapper**: 0x8aDeace74F383e3F44DDf2Becb404aa2e823F2fC
+- **Deposit Token Address**: 0x917ceE801a67f933F2e6b33fC0cD1ED2d5909D88
+- **Maturity Timestamp**: 1726272000
+- **Address Lock Depositor**: 0xfbc184950949626dCD1b023AcFF8C84C1b9198A5
+- **Point Token**: 0x52D09A03a94Fa79389ed400bFa669ED408E8B3E0
+- **Principal Token**: 0x5B5dedee1f0f03a51A8C622372e8A07EafA15f12
+- **Combined Token**: 0xa39844726DBB2ecca56c8856952A0ae09302Da9B
+- **Chain ID**: 1
 #### Maturity Date: 2024-12-25
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Protocol**: ETHERFI
+- **Deposit Token Name**: Super Symbiotic LRT
+- **Zapper**: 0x8aDeace74F383e3F44DDf2Becb404aa2e823F2fC
+- **Deposit Token Address**: 0x917ceE801a67f933F2e6b33fC0cD1ED2d5909D88
+- **Maturity Timestamp**: 1735084800
+- **Address Lock Depositor**: 0x035D135bF428460Be8E1C19b36e8d4231752da4d
+- **Point Token**: 0x9EC53315Ce201959b155F34Aaa13cf414133D863
+- **Principal Token**: 0x3e931409FD55846A0d91096917Ed59919973d863
+- **Combined Token**: 0x47A3a38506af85fC32E950ec011f87c4eA9058e4
+- **Chain ID**: 1
 ### Deposit Token Name: King Karak LRT
 
 #### Maturity Date: 2024-09-14
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Protocol**: ETHERFI
+- **Deposit Token Name**: King Karak LRT
+- **Zapper**: 0x8eeCB77026e0f82F54c5c5F0c4678D0ce1FF224b
+- **Deposit Token Address**: 0x7223442cad8e9cA474fC40109ab981608F8c4273
+- **Maturity Timestamp**: 1726272000
+- **Address Lock Depositor**: 0x27027CD9c97C20862F558FB7B5A9964bb152bEc8
+- **Point Token**: 0xD222DF0ae6262af7EE6678503DfC11fCCb0DAA77
+- **Principal Token**: 0x7e1f19FB298A703C54182608485D2cbD145fd41C
+- **Combined Token**: 0xa7eF6523C426224bF2628518805E5f986A4f9E72
+- **Chain ID**: 1
 #### Maturity Date: 2024-12-25
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Protocol**: ETHERFI
+- **Deposit Token Name**: King Karak LRT
+- **Zapper**: 0x8eeCB77026e0f82F54c5c5F0c4678D0ce1FF224b
+- **Deposit Token Address**: 0x7223442cad8e9cA474fC40109ab981608F8c4273
+- **Maturity Timestamp**: 1735084800
+- **Address Lock Depositor**: 0xD573CE999776634d2eDfe310D33382F4f0aa28a2
+- **Point Token**: 0xA47A1CD20ddA3F34d21Fd56C22E8437B389C12c3
+- **Principal Token**: 0xF68C4b80320F64997965Ba306AbfDF3683910B5E
+- **Combined Token**: 0xBD91C7771dF008C6321fb6357Da6d0825F97196a
+- **Chain ID**: 1
 ### Deposit Token Name: Wrapped eETH
 
 #### Maturity Date: 2024-08-14
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Protocol**: ETHERFI
+- **Deposit Token Name**: Wrapped eETH
+- **Zapper**: 0x7b9E40B3DC478c1B00f4379d35C13bE013C9c798
+- **Deposit Token Address**: 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee
+- **Maturity Timestamp**: 1723593600
+- **Address Lock Depositor**: 0x9522A199503E8Dab5Ec765E4EBB706F7BdcfbF43
+- **Point Token**: 0x9734a6e26021905424C829C25987ACC66e9416bf
+- **Principal Token**: 0x859ce1EAA2597F6AA3eEbEBbA4F1Da81E44D788E
+- **Combined Token**: 0xD02B31bD4E153776fEc67F9fC62233Cc32ea589C
+- **Chain ID**: 1
 #### Maturity Date: 2024-11-14
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Protocol**: ETHERFI
+- **Deposit Token Name**: Wrapped eETH
+- **Zapper**: 0x7b9E40B3DC478c1B00f4379d35C13bE013C9c798
+- **Deposit Token Address**: 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee
+- **Maturity Timestamp**: 1731542400
+- **Address Lock Depositor**: 0xe8f0613fD627f6914EAED2BE5a3773268125b2D5
+- **Point Token**: 0x8ED775c8784d381840E0FeA327dC2Fc816495E5c
+- **Principal Token**: 0x43Efe817cdFa6A24529290dBdF655b6Dc70a060d
+- **Combined Token**: 0x9E1c226B7d4a7D4Dd8451ee5D3364842960D6bdF
+- **Chain ID**: 1
 ### Deposit Token Name: Ether.Fi Liquid ETH
 
 #### Maturity Date: 2024-08-14
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Protocol**: ETHERFI
+- **Deposit Token Name**: Ether.Fi Liquid ETH
+- **Zapper**: 0x6c922ebDE807Ce153dd645c2030F5a65862990Fb
+- **Deposit Token Address**: 0xf0bb20865277aBd641a307eCe5Ee04E79073416C
+- **Maturity Timestamp**: 1723593600
+- **Address Lock Depositor**: 0x1ba3ce9d0E6DB041b6818B79Bc101614b17548A1
+- **Point Token**: 0xB05e8AC77c76F4Eb8Cda07d3Ce2e8552215d3Fef
+- **Principal Token**: 0xBAF470c7834C58E6f14b0BC5c7387f0a99E9FFA8
+- **Combined Token**: 0xcE280DBE19c2833cC44Bb484A11879D7dD5a3B8A
+- **Chain ID**: 1
 #### Maturity Date: 2024-11-14
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Protocol**: ETHERFI
+- **Deposit Token Name**: Ether.Fi Liquid ETH
+- **Zapper**: 0x6c922ebDE807Ce153dd645c2030F5a65862990Fb
+- **Deposit Token Address**: 0xf0bb20865277aBd641a307eCe5Ee04E79073416C
+- **Maturity Timestamp**: 1731542400
+- **Address Lock Depositor**: 0x782c84A869486940c849fF94618775e2c1FdB5e4
+- **Point Token**: 0xe7f0DC86129fEd2011bf1163D0E17687b9106fB6
+- **Principal Token**: 0x98Ca0Ff4E172B3775b7Df201A3d36894618A69d7
+- **Combined Token**: 0x40eB88c4428d9DD641F3b0cF781ADcaf86268Ef9
+- **Chain ID**: 1
 #### Maturity Date: 2025-02-14
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
+- **Protocol**: ETHERFI
+- **Deposit Token Name**: Ether.Fi Liquid ETH
+- **Zapper**: 0x6c922ebDE807Ce153dd645c2030F5a65862990Fb
+- **Deposit Token Address**: 0xf0bb20865277aBd641a307eCe5Ee04E79073416C
 - **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Address Lock Depositor**: 0x8753F58bD27513c1a8F84937660c2f2e3AAb5b0B
+- **Point Token**: 0x97a10806C1AD3dF7d14d38d6A7ED6636286D44fb
+- **Principal Token**: 0x9EEE7E183b8958aA067A6b6ED5C5785AF2361857
+- **Combined Token**: 0xb3CB22754D0E09b1392233b6A09991b16de6A38C
+- **Chain ID**: 1
 ### Deposit Token Name: Ether.fi-Liquid1
 
 #### Maturity Date: 2024-08-14
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Protocol**: ETHERFI
+- **Deposit Token Name**: Ether.fi-Liquid1
+- **Zapper**: None
+- **Deposit Token Address**: 0xeA1A6307D9b18F8d1cbf1c3Dd6aad8416C06a221
+- **Maturity Timestamp**: 1723593600
+- **Address Lock Depositor**: 0xD7d929DAd6667E28f05796091C75021e0D1a6900
+- **Point Token**: 0x68f080904C97Cb429475538A8aF6FBEC322F4Ba6
+- **Principal Token**: 0x60E3E1F8f7a76EDD2e7F03f29431E1ffC168d86b
+- **Combined Token**: 0x5771B8Cb4E090370E477A7E45a971B85f6BFC2BC
+- **Chain ID**: 1
 #### Maturity Date: 2024-11-14
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Protocol**: ETHERFI
+- **Deposit Token Name**: Ether.fi-Liquid1
+- **Zapper**: None
+- **Deposit Token Address**: 0xeA1A6307D9b18F8d1cbf1c3Dd6aad8416C06a221
+- **Maturity Timestamp**: 1731542400
+- **Address Lock Depositor**: 0x43c9ECba97d3294B47babda178bb62104EB9b613
+- **Point Token**: 0x99579085EC15A386E34b592f719e9DAdEae4EbCB
+- **Principal Token**: 0xB668357764f5170cE99d596fA3966b6F1BD88dD0
+- **Combined Token**: 0x76D9FF809b48e2f92325a5003A74c366dF3baf8B
+- **Chain ID**: 1
 #### Maturity Date: 2025-02-14
 
-- **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
-- **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
+- **Protocol**: ETHERFI
+- **Deposit Token Name**: Ether.fi-Liquid1
+- **Zapper**: None
+- **Deposit Token Address**: 0xeA1A6307D9b18F8d1cbf1c3Dd6aad8416C06a221
 - **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Address Lock Depositor**: 0x3D7Fe7b7b207FB12f01295D402BD4380CCC833DF
+- **Point Token**: 0x7A49248D9ae0372BECA308043Cc265Ab77E0fD68
+- **Principal Token**: 0x66e400769231E4Cb8fbBf5df99713a23B1a7c37d
+- **Combined Token**: 0x0ABCBd3aF808c22F79F11592c8105a99423f3cA6
+- **Chain ID**: 1
 ### Deposit Token Name: Ether.Fi Liquid USD
 
 #### Maturity Date: 2024-08-14
 
+- **Protocol**: ETHERFI
 - **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
 - **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
+- **Maturity Timestamp**: 1723593600
+- **Address Lock Depositor**: 0x8AfBf65a76793aE0cD041ed2F26811D952DE6Ee3
+- **Point Token**: 0xE865509d7684a15974922F1d96791bC48E8d109A
+- **Principal Token**: 0xa2962EaFE66c474b1447ec47B05565b38C44e798
+- **Combined Token**: 0x25f14f0BaCCAf69526D1Ba335106830300D8B02b
+- **Chain ID**: 1
 #### Maturity Date: 2024-11-14
 
+- **Protocol**: ETHERFI
 - **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
 - **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
-- **Maturity Timestamp**: 1739491200
-- **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
-- **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
-- **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
-- **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
+- **Maturity Timestamp**: 1731542400
+- **Address Lock Depositor**: 0x9284754004Ffe7f68F8969CF2F3C3B86F0802532
+- **Point Token**: 0xd7F10ae183762383B2DcdA40526164434743E834
+- **Principal Token**: 0x7875ea21af918b0Ab6B7d4332b51e33fc432870B
+- **Combined Token**: 0x27b60aF8A25d7A65037f0a7422C165A3ec6E12Ed
+- **Chain ID**: 1
 #### Maturity Date: 2025-02-14
 
+- **Protocol**: ETHERFI
 - **Deposit Token Name**: Ether.Fi Liquid USD
-- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
 - **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
+- **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
 - **Maturity Timestamp**: 1739491200
 - **Address Lock Depositor**: 0xF11fbb660B9950FeCd38E13B446A28e8605535FC
 - **Point Token**: 0x036d9daD65964d05C4856cfa1bB7fa680e08544B
 - **Principal Token**: 0xC5DBC2757ee116b68F5Ac975bF9f1725bEEd6aE0
 - **Combined Token**: 0x497aa207309e5793883e9DB95C5E0E6c093e2b93
-- Blockchain ID: 1
+- **Chain ID**: 1

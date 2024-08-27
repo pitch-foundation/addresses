@@ -55,7 +55,7 @@ def update_output_file(file_path, extracted_data):
 
 def write_markdown_file(file_path, extracted_data):
     """Write the extracted data to a markdown file, grouped by protocol, deposit token name, and maturity date."""
-    # Group data by protocol, then by deposit token name, and then by maturity date
+    # Group data by protocol, then by deposit token name, and finally by maturity date
     grouped_data = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
     for data in extracted_data:
         protocol = data['protocol']
@@ -73,15 +73,16 @@ def write_markdown_file(file_path, extracted_data):
                 for maturity_date, entries in maturity_groups.items():
                     file.write(f"#### Maturity Date: {maturity_date}\n\n")
                     for entry in entries:
-                        file.write(f"- **Deposit Token Name**: {data['depositToken_name']}\n")
-                        file.write(f"- **Deposit Token Address**: {data['depositToken_address']}\n")
-                        file.write(f"- **Zapper**: {data['zapper']}\n")
-                        file.write(f"- **Maturity Timestamp**: {data['maturityTimestamp']}\n")
-                        file.write(f"- **Address Lock Depositor**: {data['addressLockDepositor']}\n")
-                        file.write(f"- **Point Token**: {data['pointToken']}\n")
-                        file.write(f"- **Principal Token**: {data['principalToken']}\n")
-                        file.write(f"- **Combined Token**: {data['combinedToken']}\n")
-                        file.write(f"- Blockchain ID: {data['chainId']}\n")
+                        file.write(f"- **Protocol**: {entry['protocol']}\n")
+                        file.write(f"- **Deposit Token Name**: {entry['depositToken_name']}\n")
+                        file.write(f"- **Zapper**: {entry['zapper']}\n")
+                        file.write(f"- **Deposit Token Address**: {entry['depositToken_address']}\n")
+                        file.write(f"- **Maturity Timestamp**: {entry['maturityTimestamp']}\n")
+                        file.write(f"- **Address Lock Depositor**: {entry['addressLockDepositor']}\n")
+                        file.write(f"- **Point Token**: {entry['pointToken']}\n")
+                        file.write(f"- **Principal Token**: {entry['principalToken']}\n")
+                        file.write(f"- **Combined Token**: {entry['combinedToken']}\n")
+                        file.write(f"- **Chain ID**: {entry['chainId']}\n")
 
 def main():
     api_url = 'https://api.hourglass.com/v1/point-boost'
