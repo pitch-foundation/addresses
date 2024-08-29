@@ -35,6 +35,7 @@ def extract_data_from_json(json_data):
                 'protocol': protocol,
                 'protocolLabel': protocol_label,
                 'depositToken_name': deposit_token_name,
+                'multiplier' : tranche.get('multiplier'),
                 'depositToken_address': deposit_token_address,
                 'zapper': zapper,
                 'maturityTimestamp': maturity_timestamp,
@@ -75,6 +76,7 @@ def write_markdown_file(file_path, extracted_data):
                     for entry in entries:
                         file.write(f"- **Protocol**: {entry['protocol']}\n")
                         file.write(f"- **Deposit Token Name**: {entry['depositToken_name']}\n")
+                        file.write(f"- **Boost Multiplier**: {entry['multiplier']}\n")
                         file.write(f"- **Zapper**: {entry['zapper']}\n")
                         file.write(f"- **Deposit Token Address**: {entry['depositToken_address']}\n")
                         file.write(f"- **Maturity Timestamp**: {entry['maturityTimestamp']}\n")

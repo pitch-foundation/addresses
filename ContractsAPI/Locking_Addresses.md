@@ -8,6 +8,7 @@
 
 - **Protocol**: MANTLE
 - **Deposit Token Name**: mETH
+- **Boost Multiplier**: 25
 - **Zapper**: None
 - **Deposit Token Address**: 0xcDA86A272531e8640cD7F1a92c01839911B90bb0
 - **Maturity Timestamp**: 1728432000
@@ -24,6 +25,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Super Symbiotic LRT
+- **Boost Multiplier**: 3.5
 - **Zapper**: 0x8aDeace74F383e3F44DDf2Becb404aa2e823F2fC
 - **Deposit Token Address**: 0x917ceE801a67f933F2e6b33fC0cD1ED2d5909D88
 - **Maturity Timestamp**: 1726272000
@@ -36,6 +38,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Super Symbiotic LRT
+- **Boost Multiplier**: 3.75
 - **Zapper**: 0x8aDeace74F383e3F44DDf2Becb404aa2e823F2fC
 - **Deposit Token Address**: 0x917ceE801a67f933F2e6b33fC0cD1ED2d5909D88
 - **Maturity Timestamp**: 1735084800
@@ -50,6 +53,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: King Karak LRT
+- **Boost Multiplier**: 3.5
 - **Zapper**: 0x8eeCB77026e0f82F54c5c5F0c4678D0ce1FF224b
 - **Deposit Token Address**: 0x7223442cad8e9cA474fC40109ab981608F8c4273
 - **Maturity Timestamp**: 1726272000
@@ -62,6 +66,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: King Karak LRT
+- **Boost Multiplier**: 3.75
 - **Zapper**: 0x8eeCB77026e0f82F54c5c5F0c4678D0ce1FF224b
 - **Deposit Token Address**: 0x7223442cad8e9cA474fC40109ab981608F8c4273
 - **Maturity Timestamp**: 1735084800
@@ -76,6 +81,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Wrapped eETH
+- **Boost Multiplier**: 3.5
 - **Zapper**: 0x7b9E40B3DC478c1B00f4379d35C13bE013C9c798
 - **Deposit Token Address**: 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee
 - **Maturity Timestamp**: 1723593600
@@ -88,6 +94,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Wrapped eETH
+- **Boost Multiplier**: 3.75
 - **Zapper**: 0x7b9E40B3DC478c1B00f4379d35C13bE013C9c798
 - **Deposit Token Address**: 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee
 - **Maturity Timestamp**: 1731542400
@@ -102,6 +109,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Ether.Fi Liquid ETH
+- **Boost Multiplier**: 3.5
 - **Zapper**: 0x6c922ebDE807Ce153dd645c2030F5a65862990Fb
 - **Deposit Token Address**: 0xf0bb20865277aBd641a307eCe5Ee04E79073416C
 - **Maturity Timestamp**: 1723593600
@@ -114,6 +122,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Ether.Fi Liquid ETH
+- **Boost Multiplier**: 3.75
 - **Zapper**: 0x6c922ebDE807Ce153dd645c2030F5a65862990Fb
 - **Deposit Token Address**: 0xf0bb20865277aBd641a307eCe5Ee04E79073416C
 - **Maturity Timestamp**: 1731542400
@@ -126,6 +135,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Ether.Fi Liquid ETH
+- **Boost Multiplier**: 4
 - **Zapper**: 0x6c922ebDE807Ce153dd645c2030F5a65862990Fb
 - **Deposit Token Address**: 0xf0bb20865277aBd641a307eCe5Ee04E79073416C
 - **Maturity Timestamp**: 1739491200
@@ -140,6 +150,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Ether.fi-Liquid1
+- **Boost Multiplier**: 3.5
 - **Zapper**: None
 - **Deposit Token Address**: 0xeA1A6307D9b18F8d1cbf1c3Dd6aad8416C06a221
 - **Maturity Timestamp**: 1723593600
@@ -152,6 +163,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Ether.fi-Liquid1
+- **Boost Multiplier**: 3.75
 - **Zapper**: None
 - **Deposit Token Address**: 0xeA1A6307D9b18F8d1cbf1c3Dd6aad8416C06a221
 - **Maturity Timestamp**: 1731542400
@@ -164,6 +176,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Ether.fi-Liquid1
+- **Boost Multiplier**: 4
 - **Zapper**: None
 - **Deposit Token Address**: 0xeA1A6307D9b18F8d1cbf1c3Dd6aad8416C06a221
 - **Maturity Timestamp**: 1739491200
@@ -178,6 +191,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Ether.Fi Liquid USD
+- **Boost Multiplier**: 3.5
 - **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
 - **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
 - **Maturity Timestamp**: 1723593600
@@ -190,6 +204,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Ether.Fi Liquid USD
+- **Boost Multiplier**: 3.75
 - **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
 - **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
 - **Maturity Timestamp**: 1731542400
@@ -202,6 +217,7 @@
 
 - **Protocol**: ETHERFI
 - **Deposit Token Name**: Ether.Fi Liquid USD
+- **Boost Multiplier**: 4
 - **Zapper**: 0x8f965F193e9a39703bCe703D83400D20415d3EA4
 - **Deposit Token Address**: 0x08c6F91e2B681FaF5e17227F2a44C307b3C1364C
 - **Maturity Timestamp**: 1739491200
