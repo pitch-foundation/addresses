@@ -5,7 +5,7 @@ library HourglassLocking {
     /// @notice Hourglass Locking Deployments
     /// @notice The addresses of each vault & the associated ERC20 tokens can be obtained via the `./ContractsAPI/contracts_extractor.py` script from the API
 
-    /// @notice Seaport Related Contracts
+    /// @notice Ethereum Seaport Related Contracts
     address public constant CONDUIT_CAPTAIN = 0x74Cb6A9d5B441aFA867e48C6cE6f3d60B49fF168;
     address public constant CONDUIT = 0x9352dA82F42c5bDDe9F0b2C19D635baE39142dD8;
     bytes32 public constant CONDUIT_KEY = 0xa8c94ae38b04140794a9394b76ac6d0a83ac0b02000000000000000000000000;
@@ -39,11 +39,22 @@ library HourglassLocking {
     /// @notice Vaults by version
 
     /// @notice Mantle Mainnet
+    // upgrader
     address public constant MANTLE_UPGRADER = 0xb9d9d84d85E58dCD180260F4737697eC33093aE2;
-    address public constant MANTLE_FACTORY = address(0x0);
-    address public constant MANTLE_FACTORY_IMPL = address(0x0);
+    // factory
+    address public constant MANTLE_FACTORY = 0x624bd5ba06A856C4D5f60c8Ba29eeE1f684Ddf05;
+    address public constant MANTLE_FACTORY_IMPL = 0x379C8070c3c0C46eC95487C9d6C86E91D728118c;
+    // seaport addresses
     address public constant MANTLE_CONDUIT_CAPTAIN = 0x1422CA8874df782A417BB0a24902bD24D5f7D9E5;
     address public constant MANTLE_CONDUIT = 0x9352dA82F42c5bDDe9F0b2C19D635baE39142dD8;
     bytes32 public constant MANTLE_CONDUIT_KEY = 0xa8c94ae38b04140794a9394b76ac6d0a83ac0b02000000000000000000000000;
     address public constant MANTLE_POINTS_GENERATOR_ZONE = 0x83294F4d84EDC6dd20e85D73cE132D2600cc0772;
+
+    // these are not tied directly to a specific version and can be shared across multiple versions of depositors
+    address public constant DEPOSIT_RECEIPT_IMPL_1 = 0xe926B113CF6e1D41edAF23AbA77A4734d6762239;
+
+    // version 0
+    uint256 public constant MANTLE_FACTORY_VERSION = 0;
+    // address public constant MANTLE_VERSION_0_BEACON = 0x0f2ab62e91b115167df40045477a55d3ffd0f1aa;
+    address public constant MANTLE_VERSION_0_IMPL = 0x44953bf9B320A4A0b413866e1fC93Aa31a51387e;
 }
