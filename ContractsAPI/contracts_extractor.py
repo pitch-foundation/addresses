@@ -66,25 +66,46 @@ def write_markdown_file(file_path, extracted_data):
 
     # Write to markdown file
     with open(file_path, 'w') as file:
-        file.write('# Extracted Data Grouped by Protocol, Deposit Token Name, and Maturity Date\n\n')
+        file.write('# Hourglass Locking Addresses Grouped by Protocol, Deposit Token, and Maturity\n\n')
         for protocol, deposit_groups in grouped_data.items():
-            file.write(f"## Protocol: {protocol}\n\n")
+            file.write(f"<details>\n")
+            file.write(f"<summary><span style='font-size: 1.5em; font-weight: bold;'>{protocol}</span></summary>\n\n")
+            file.write("<br>\n\n")
             for deposit_token_name, maturity_groups in deposit_groups.items():
-                file.write(f"### Deposit Token Name: {deposit_token_name}\n\n")
+                # Indent the "Deposit Token Name" and its contents
+                file.write(f"<div style='margin-left: 20px;'>\n")
+                file.write(f"<details>\n")
+                file.write(f"<summary><span style='font-size: 1.25em; font-weight: bold;'>{deposit_token_name}</span></summary>\n\n")
+                file.write("<br>\n\n")
                 for maturity_date, entries in maturity_groups.items():
-                    file.write(f"#### Maturity Date: {maturity_date}\n\n")
+                    # Indent the "Maturity Date" and its contents
+                    file.write(f"<div style='margin-left: 20px;'>\n")
+                    file.write(f"<details>\n")
+                    file.write(f"<summary><span style='font-size: 1em;'>{maturity_date} Maturity Date - {entries[0]['multiplier']}x Boost</span></summary>\n\n")
                     for entry in entries:
-                        file.write(f"- **Protocol**: {entry['protocol']}\n")
-                        file.write(f"- **Deposit Token Name**: {entry['depositToken_name']}\n")
-                        file.write(f"- **Boost Multiplier**: {entry['multiplier']}\n")
-                        file.write(f"- **Zapper**: {entry['zapper']}\n")
-                        file.write(f"- **Deposit Token Address**: {entry['depositToken_address']}\n")
-                        file.write(f"- **Maturity Timestamp**: {entry['maturityTimestamp']}\n")
-                        file.write(f"- **Address Lock Depositor**: {entry['addressLockDepositor']}\n")
-                        file.write(f"- **Point Token**: {entry['pointToken']}\n")
-                        file.write(f"- **Principal Token**: {entry['principalToken']}\n")
-                        file.write(f"- **Combined Token**: {entry['combinedToken']}\n")
-                        file.write(f"- **Chain ID**: {entry['chainId']}\n")
+                        address_lock_depositor = entry['addressLockDepositor']
+                        address_combined_token = entry['combinedToken']
+                        address_principal_token = entry['principalToken']
+                        address_point_token = entry['pointToken']
+                        address_zapper = entry['zapper']
+                        address_deposit_token = entry['depositToken_address']
+                        etherscan_link = f"https://etherscan.io/address/{address_lock_depositor}#code"
+                        file.write(f"  - Lock Depositor: [{address_lock_depositor}]({etherscan_link})\n")
+                        file.write(f"  - Combined Token: [{address_combined_token}]({etherscan_link})\n")
+                        file.write(f"  - Principal Token: [{address_principal_token}]({etherscan_link})\n")
+                        file.write(f"  - Combined Token: [{address_combined_token}]({etherscan_link})\n")
+                        file.write(f"  - Point Token: [{address_point_token}]({etherscan_link})\n")
+                        file.write(f"  - Maturity Timestamp: {entry['maturityTimestamp']}\n")
+                        file.write(f"  - Zapper Used for Point Leverage: [{address_zapper}]({etherscan_link})\n")
+                        file.write(f"  - Deposit Token: [{address_deposit_token}]({etherscan_link})\n")
+                        file.write(f"  - Chain ID: {entry['chainId']}\n")
+                    file.write("</details>\n")
+                    file.write("</div>\n\n") 
+                file.write("</details>\n")
+                file.write("</div>\n\n")  
+                file.write("<br>\n\n")
+            file.write("</details>\n\n")
+            file.write("---\n\n") 
 
 def main():
     api_url = 'https://api.hourglass.com/v1/point-boost'
