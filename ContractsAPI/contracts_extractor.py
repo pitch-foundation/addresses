@@ -76,7 +76,7 @@ def write_markdown_file(file_path, extracted_data):
                 file.write(f"<div style='margin-left: 20px;'>\n")
                 file.write(f"<details>\n")
                 file.write(f"<summary><span style='font-size: 1.25em; font-weight: bold;'>{deposit_token_name}</span></summary>\n\n")
-                file.write("<br>\n\n")
+                # file.write("<br>\n\n")
                 for maturity_date, entries in maturity_groups.items():
                     # Indent the "Maturity Date" and its contents
                     file.write(f"<div style='margin-left: 20px;'>\n")

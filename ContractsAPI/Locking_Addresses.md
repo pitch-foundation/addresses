@@ -9,8 +9,6 @@
 <details>
 <summary><span style='font-size: 1.25em; font-weight: bold;'>mETH</span></summary>
 
-<br>
-
 <div style='margin-left: 20px;'>
 <details>
 <summary><span style='font-size: 1em;'>2024-10-09 Maturity Date - 25x Boost</span></summary>
@@ -44,8 +42,6 @@
 <div style='margin-left: 20px;'>
 <details>
 <summary><span style='font-size: 1.25em; font-weight: bold;'>Super Symbiotic LRT</span></summary>
-
-<br>
 
 <div style='margin-left: 20px;'>
 <details>
@@ -88,8 +84,6 @@
 <details>
 <summary><span style='font-size: 1.25em; font-weight: bold;'>King Karak LRT</span></summary>
 
-<br>
-
 <div style='margin-left: 20px;'>
 <details>
 <summary><span style='font-size: 1em;'>2024-09-14 Maturity Date - 3.5x Boost</span></summary>
@@ -131,8 +125,6 @@
 <details>
 <summary><span style='font-size: 1.25em; font-weight: bold;'>Wrapped eETH</span></summary>
 
-<br>
-
 <div style='margin-left: 20px;'>
 <details>
 <summary><span style='font-size: 1em;'>2024-08-14 Maturity Date - 3.5x Boost</span></summary>
@@ -173,8 +165,6 @@
 <div style='margin-left: 20px;'>
 <details>
 <summary><span style='font-size: 1.25em; font-weight: bold;'>Ether.Fi Liquid ETH</span></summary>
-
-<br>
 
 <div style='margin-left: 20px;'>
 <details>
@@ -233,8 +223,6 @@
 <details>
 <summary><span style='font-size: 1.25em; font-weight: bold;'>Ether.fi-Liquid1</span></summary>
 
-<br>
-
 <div style='margin-left: 20px;'>
 <details>
 <summary><span style='font-size: 1em;'>2024-08-14 Maturity Date - 3.5x Boost</span></summary>
@@ -291,8 +279,6 @@
 <div style='margin-left: 20px;'>
 <details>
 <summary><span style='font-size: 1.25em; font-weight: bold;'>Ether.Fi Liquid USD</span></summary>
-
-<br>
 
 <div style='margin-left: 20px;'>
 <details>
