@@ -17,9 +17,9 @@ library HourglassIndexes {
     /// @notice HFXB INDEX
     /**
      * @notice Index Factory Deployer Role
-     * signer: zrowgz type: EOA address: 0xfE12713e93B90284b5Ec74C272620097E8183e4B
+     * signer: Hourglass Deployer
      * @notice Index Factory Registry Manager Role
-     * signer: zrowgz type: EOA address: 0xfE12713e93B90284b5Ec74C272620097E8183e4B
+     * signer: Hourglass Deployer
      */
     uint256 public constant HFXB_DEPLOYMENT_INDEX = 1; // deployment stored in index index 1
     address public constant HFXB = address(0x743187e8b302775c8E39E3b19E337982aC260134);

@@ -22,8 +22,6 @@ library HourglassAddresses {
     /// @notice Upgrader Safe Signers
     /// @notice Owner: Charlie - Type: EOA
     address public constant UPGRADER_SIGNER_1 = address(0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af);
-    /// @notice Owner: ZrowGz - Type: EOA
-    address public constant UPGRADER_SIGNER_2 = address(0x99F90f800842a1E24855246556368FF68459096C);
     
     /**
     * @notice   ARBITRUM UPGRADER
@@ -33,8 +31,6 @@ library HourglassAddresses {
     *               - HourglassOracle
     * @notice Owner: Charlie - Type: EOA
     *   address public constant UPGRADER_SIGNER_1 = address(0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af);
-    * @notice Owner: ZrowGz - Type: EOA
-    *   ddress public constant UPGRADER_SIGNER_2 = address(0x99F90f800842a1E24855246556368FF68459096C);
     */
     address public constant ARBITRUM_UPGRADER = address(0xd3bb52BaF261a82a683C6Ca5f55EcbfB1d96756e);
 
@@ -58,8 +54,6 @@ library HourglassAddresses {
     */
     /// @notice Owner: Charlie - Type: EOA
     address public constant SETTER_MANAGER_1 = address(0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af);
-    /// @notice Owner: ZrowGz - Type: EOA
-    address public constant SETTER_MANAGER_2 = address(0x80AFF4d057f725Fde71b15134630eeE4c5b716d2);
 
     /**
     * @notice   ROLE: CHECKPOINTER
@@ -72,7 +66,6 @@ library HourglassAddresses {
     //     address(0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af); /// NOTE DEPRECATED
     /// @notice  SAFE 1/2 signers
     ///          Signer 1: CHECKPOINTER_SIGNER_1
-    ///          Signer 2: UPGRADER_SIGNER_2
     address public constant DISTRIBUTOR_CHECKPOINTER = 
         address(0x2FBe0b34f7cDC94D1335a1D2A1ff507e5c17E509);
     /// @notice  Signer: TBIQ - Type: EOA
@@ -87,10 +80,7 @@ library HourglassAddresses {
     */
     /// @notice Owner: Charlie - Type: EOA
     address public constant PAUSER_1 = address(0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af);
-    /// @notice Owner: ZrowGz - Type: EOA
-    // address public constant PAUSER_2 = address(0x91111D3fbaa8C8F25ebE52243f0fe0549c22E258); deprecated
-    /// @notice Owner: ZrowGz - Type: EOA
-    address public constant PAUSER_3 = address(0x0d0448B1BC6eA4d3A6d23fB6d942A483740B0B0c);
+
 
     /////////// Non-Permissioned But Critical Addresses ///////////
     /** 
@@ -116,7 +106,6 @@ library HourglassAddresses {
      *  @notice HOURBLAST OWNER
      *  @notice SAFE 1/2 Signers:
      *          Signer 1: Charlie 0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af
-     *          Signer 2: SETTER_MANAGER_2 0x80AFF4d057f725Fde71b15134630eeE4c5b716d2
      *  @notice Owns all Hourblast Contracts (see below)
      */
     address public constant HOURBLAST_OWNER = address(0x05463718F336C4F5A511ea8BE8F65DdC9347cc7A);
@@ -133,7 +122,6 @@ library HourglassAddresses {
      *  @notice HFXB OWNER
      *  @notice SAFE 1/2 Signers:
      *          Signer 1: Charlie 0x3F2Bdc07B61f5Ff658F22C841a0eF505426216Af
-     *          Signer 2: Zrowgz 0xfE12713e93B90284b5Ec74C272620097E8183e4B
      *          Signer 3: Bryce Temp 1: 0x071AAFb1906897763F26c74a6660BE4Cd8b80051
      *          Signer 4: Bryce Temp 2: 0xaB1034639C9798Af555d0FE4534CDd4D26CeDD91
      *          Signer 5: Adam: 0x3c2Fb1CDeeFf429674e25629406b41767B5dfC08
